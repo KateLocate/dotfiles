@@ -1,21 +1,7 @@
 [user]
 	name = Viktor Vorobev
 	email = viktor.vorobev@emlid.com
-[alias]
-    lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    unstage = reset HEAD
-    st = status -sb
-    undo = checkout --
-    subupdate = submodule update --init --recursive
-    cpick = cherry-pick
-[merge]
-	tool = vimdiff
-	ff = only
-	conflictstyle = diff3
+[push]
+	default = simple
 [core]
-	excludesfile = ~/.gitignore
-	autocrlf = input
-[color]
-	ui = auto
-[gpg]
-	program = gpg2
+	editor = /usr/bin/vim

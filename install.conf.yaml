@@ -2,20 +2,18 @@
 
 - link:
     ~/.dotfiles: ''
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore: git/gitignore
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmux: tmux/
     ~/.vim: vim/
     ~/.vimrc: vim/vimrc
-    ~/.gitconfig: git/gitconfig
-    ~/.gitignore: git/gitignore
     ~/.zshrc: zsh/zshrc
-    ~/.screenrc: screen/screenrc
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
     ~/.zprofile: zprofile
     ~/.zprofile.d: zprofile.d
-    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
-    ~/.oh-my-zsh/custom/plugins/history-search-multi-word: zsh/history-search-multi-word
-    ~/.oh-my-zsh/custom/themes/aphex.zsh-theme: zsh/aphex.zsh-theme
-    ~/utils/git-subrepo: utils/git-subrepo
+    ~/.ssh/config: ssh/config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
