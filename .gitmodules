@@ -16,3 +16,6 @@
 [submodule "utils/git-subrepo"]
 	path = utils/git-subrepo
 	url = https://github.com/ingydotnet/git-subrepo.git
+[submodule "zsh/zsh-syntax-highlighting"]
+	path = zsh/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
