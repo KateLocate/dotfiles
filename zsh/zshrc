@@ -94,3 +94,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias activate='source venv/bin/activate'
+
+# Git aliases
+alias gci='git commit'
+alias gcm='git commit -m'
+alias gch='git checkout'
+alias gs='git status'
+alias ga='git add'
+alias gog='git log --graph --oneline --decorate'
